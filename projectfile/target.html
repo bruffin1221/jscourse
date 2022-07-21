@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+#sonny{
+
+    display: inline-block;
+    background: url(nav.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    border: 1px blue solid;
+    margin-left: 50px;
+    transition: all 1s ease
+}
+
+#sonny a{
+    padding: 100%;
+    transition: all 1s ease
+}
+
+#mommy{
+
+display: inline-block;
+ background: url(facebook-gray.png);
+background-size: 100% auto;
+background-repeat: no-repeat;
+width: 100px;
+height: 100px;
+border: 1px blue solid;
+margin-left: 300px;
+transition: all 1s ease
+}
+
+#mommy a{
+    position:relative;
+    padding: 100%;
+    transition: all 1s ease
+}
+
+div:target{
+       font-size: 200%;
+       margin-left: 500px
+   }
+
+   div{
+       
+       margin-left: -200px
+   }
+
+   #son{
+    width: 0px;
+    transition: all 2s ease
+   }
+
+   #mom{
+       width: 300px;
+       height: 400px;
+       margin-top: 100px;
+       border: 1px blue solid;
+       transition: all 2s ease
+   }
+
+   #mom p{
+
+       position: relative;
+       top: 180px;
+       left: 100px
+   }
+
+
+</style>
+<body>
+   <div id="sonny">
+       
+      <a href="#son"></a>
+    
+    </div> 
+    
+    <div id="mommy">
+
+        <a href="#mom"></a>
+
+    </div>
+
+    <div id="son"></div>
+    
+    <div id="mom">
+        
+        <p>Karla</p>
+
+    </div>
+
+
+</body>
+</html>

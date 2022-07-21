@@ -1,0 +1,100 @@
+body{
+
+    background: black
+}
+
+
+#transition-timing{
+
+    background: maroon;
+    width: 80%;
+    height: 800px;
+    margin-left: 10%
+    
+}
+
+#linear, #ease-in, #ease-out, #ease-in-out, #ease, #cubic-bezier {
+
+    position: relative;
+    background: white;
+    color: black;
+    width: 100px;
+    height: 100px;
+    top: 2%;
+    left: 2%
+      
+}
+
+#linear{
+
+    transition: transform 5s linear 3s, background-color 1s
+}
+
+#linear:hover{
+
+    transform: translateX(1000px);
+    background-color: green
+    
+}
+
+#ease-in{
+
+    transition: transform 5s ease-in 3s, background-color 1s ease-in 1s
+}
+
+#ease-in:hover{
+
+    transform: translateX(1000px);
+    background-color: yellow
+    
+}
+
+#ease-out{
+
+    transition: transform 6s ease-out 3s, background-color 1s ease-out 1s
+}
+
+#ease-out:hover{
+
+    transform: translateX(1000px);
+    background-color: blue
+    
+}
+
+#ease-in-out{
+
+    transition: transform 6s ease-in-out 3s, background-color 1s ease-in-out 1s
+}
+
+#ease-in-out:hover{
+
+    transform: translateX(1000px);
+    background-color: gray;
+    
+}
+
+#ease{
+
+    transition: transform 6s ease-in-out 3s, background-color 1s ease 1s
+}
+
+#ease:hover{
+
+    transform: translateX(1000px);
+    background-color: violet;
+    
+}
+ 
+#cubic-bezier{
+
+    transition: transform 2s;
+    transition-timing-function: cubic-bezier(5.0, 0.1, 1.0, 5.0);
+  }
+  
+  #cubic-bezier:hover {
+
+    transform:translateX(1000px);
+
+  }
+    
+

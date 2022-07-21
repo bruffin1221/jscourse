@@ -1,0 +1,63 @@
+body{
+
+    background: black
+}
+
+
+#image-background{
+
+    background: darkgray;
+    height: 1500px;
+    width: 80%;
+    margin-left: 10%
+
+}
+
+#image-background p{
+
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 300%;
+    font-weight: 900;
+    top: 3%;
+    padding-top: 10%;
+    position: relative;
+    left: 1%;
+    height: 30%;
+    width: 97%
+}
+
+#image-background p:first-child{
+
+    background: url(battle-ropes.jpg) no-repeat 0% 0%/50% 50%,
+    url(cycling.jpg) no-repeat 100% 0%/50% 50%,
+    url(fit.jpg) no-repeat 0% 100%/50% 50%,
+    url(play.jpg) no-repeat 100% 100%/50% 50%;
+    color: white; 
+    border: 2px solid black
+
+}
+
+#image-background p:nth-child(2){
+
+    background: url(hustle.jpg) no-repeat 0% 0%/50% 50%,
+    url(computer.jpg) no-repeat 100% 0%/50% 50%,
+    url(better.jpg) no-repeat 0% 100%/50% 50%,
+    url(wealth.jpg) no-repeat 100% 100%/50% 50%;
+    color: white; 
+    border: 2px solid black
+   
+
+}
+
+#image-background p:last-child{
+
+    background: url(nature.png) no-repeat 0% 0%/50% 50%,
+    url(travel.png) no-repeat 100% 0%/50% 50%,
+    url(travel2.png) no-repeat 0% 100%/50% 50%,
+    url(live.jpg) no-repeat 100% 100%/50% 50%;
+    color: white; 
+    border: 2px solid black
+
+}

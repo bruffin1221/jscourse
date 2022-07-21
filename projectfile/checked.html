@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checked</title>
+    <style>
+
+        .mom{
+
+           width: 200px;
+           height: 200px;
+            position: relative;
+            cursor: pointer;
+          
+        }
+        
+       .mom input{
+
+            position: absolute;
+            width: 0px;
+            height: 0px;
+            opacity: 0;
+            cursor: pointer
+           
+        }
+
+        .x{
+           
+
+           margin: 0 auto;
+           width:  75px;
+           height: 5px;
+           background: black;
+           margin-top: 20px;
+           margin-bottom: 20px;
+           transition: all 3s
+          
+       }
+
+        #nav-checked{
+
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            left: 50px;
+            border: 1px solid black;
+            transition: all 3s
+
+        }
+
+        .mom input:hover~#nav-checked {
+
+            background: maroon
+        }
+
+        .mom input:checked~#nav-checked div.x:first-child{
+            
+            transform: rotateZ(40deg);
+            position: relative;
+            top: 25%
+        
+        }
+
+        .mom input:checked~#nav-checked div.x:nth-child(2){
+            
+            transform: rotateZ(-40deg);
+        
+        }
+
+        .mom input:checked~#nav-checked div.x:last-child{
+            
+            opacity: 0
+            
+        }
+
+         #move{
+
+            position: relative;
+            top: 500px;
+            width: 100px; 
+            height: 100px;
+            background: url(fish.jpg);
+            background-size: 100% 100%;
+            background-position: no-repeat;
+            transition: all 3s ease
+
+        } 
+
+        .mom input:checked~#move{
+
+           margin-left: 300px
+        }
+
+
+
+      
+
+    </style>
+</head>
+<body>
+
+   <label class="mom">
+
+    
+
+           <input type="checkbox"  for="move">
+           <span id="nav-checked">
+
+             <div class="x"></div>
+             <div class="x"></div>
+             <div class="x"></div>
+            
+            </span>
+
+          <div id="move"></div>
+
+           
+</label> 
+
+
+
+
+       
+   
+   
+   
+
+       
+
+
+     
+      
+
+        
+
+    
+
+    <!-- <div id="blue">
+
+        <div class="x"></div>
+        <div class="x"></div>
+        <div class="x"></div>
+
+    </div> -->
+ 
+    <!-- <input type="checkbox" id="custon">
+    <label for="custom"> Karla</label> -->
+    
+</body>
+</html>

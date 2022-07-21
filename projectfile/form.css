@@ -1,0 +1,157 @@
+body{
+
+    background: linear-gradient(black, gray, white)
+
+}
+
+form{
+
+    background: black;
+    color: white;
+    width: 400px;
+    height: 700px;
+    position: relative;
+    margin-left: 38%;
+       
+}
+
+form p{
+
+    display: block;
+    box-sizing: border-box;
+    background: rgb(53, 51, 51);
+    text-align: left;
+    font-size: 130%;
+    position: relative;
+    top: 1rem
+  
+}
+
+form label, form input, form select, form button{
+
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+   
+    
+}
+
+.product-field{
+
+    background: transparent;
+    position: absolute;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 95%;
+    margin-top: -3px;
+
+}
+
+form label{
+
+    font-size: .7rem;
+    left: 5px;
+    width: 95%;
+   
+  
+}
+
+form input:required{
+
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid white;
+    width: 95%;
+    left: 5px;   
+    
+}
+
+
+form input:required:focus,
+form input:required:hover{
+
+    margin-top: 15px;
+    background: gray;
+    opacity: .5;
+       
+} 
+
+form input:required:focus + .product-field{
+
+    margin-top: 15px;
+    background: transparent
+
+}
+
+form input:required:focus + .product-field:after{
+
+  content: "x";
+  font-size: 1rem
+
+}
+
+form input:required + .product-field::after{
+
+  content:"required";
+  padding-left: 90%;
+  font-size: .5rem;
+  color: red;
+ 
+}
+
+form input:valid{
+
+    margin-top: 15px;
+ 
+
+}
+
+form input:valid:focus + .product-field::after{
+
+    content: '\2713';
+    color: rgb(138, 175, 138);
+     
+ }
+
+
+form input:valid + .product-field::after{
+
+   content: "completed";
+   color: green
+    
+}
+
+form input[type="password"]:required:invalid:focus{
+
+    margin-top: 15px;
+    background: gray
+    
+}
+
+form input[type="password"]:valid{
+
+    margin-top: 15px;
+    background: white
+}
+
+
+form input#credit-card-number:valid{
+
+    margin-top: 15px;
+    background: white
+    
+}
+
+form button{
+
+    width: 95%;
+    height: 40px;
+    border-radius: 10px;
+    left: 5px
+    
+}
+
+

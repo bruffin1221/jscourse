@@ -1,0 +1,115 @@
+body{
+
+    background: white
+
+}
+
+
+#travel-poster{
+
+    width: 90%;
+    height: 650px;
+    margin: 5%;
+    perspective: 1000px
+    
+   
+}
+
+#traveling{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    box-sizing: border-box;
+    width: 95%;
+    height: 95%;
+    background: gray; 
+    margin-left: 2.5%;
+    transform: perspective(2500px) scale(.75) rotateY(-10deg) translateX(-50px);
+     transform-origin: center center;
+     transform-style: flat ;
+     box-shadow: 15px 15px 15px 15px black;
+  
+    
+   
+}
+
+#backpacker{
+
+    background: url(backpacker.jpg);
+    background-size: 100% 100%
+
+}
+
+#cityscape{
+
+    background: url(cityscape.jpg);
+    background-size: 100% 100%
+
+}
+
+#jared-rice{
+
+    background: url(jared-rice-qErAC7r1Q8E-unsplash.jpg);
+    background-size: 100% 100%
+
+}
+
+#lake-travel{
+
+    background: url(lake-travel.jpg);
+    background-size: 100% 100%
+
+}
+
+#travel{
+
+    background: url(travel.png);
+    background-size: 100% 100%
+
+}
+
+#travel2{
+
+    background: url(travel2.png);
+    background-size: 100% 100%
+
+}
+
+#travel3{
+
+    background: url(travel3.jpg);
+    background-size: 100% 100%
+
+}
+
+#travel6{
+
+    background: url(travel6.jpg);
+    background-size: 100% 100%
+
+}
+
+#backpacker,
+#cityscape,
+#jared-rice,
+#lake-travel,
+#travel,
+#travel2, 
+#travel3,
+#travel6{
+
+    transform: rotateX(5deg) rotateY(-5deg)
+    
+
+
+}
+
+
+
+
+
+
+
+
+

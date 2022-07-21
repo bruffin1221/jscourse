@@ -1,0 +1,274 @@
+body{
+
+    background: black;
+    color: white
+
+}
+
+h1{
+
+    text-align: center
+}
+
+.beyond{
+
+    position: relative;
+    width: 400px;
+    height: 600px;
+    background: rgb(230,221,197);
+    color: black;
+    top: 30px;
+    float: left
+
+}
+
+.beyond ul{
+
+    list-style-type: none;
+    font-size: 200%
+
+}
+
+#work,
+#living,
+#travel{
+
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 34%;
+    border-bottom:2px solid black;
+    text-align: center;
+    padding-top: 20%
+
+}
+
+
+#work{
+
+    background: url(hustle.jpg);
+    background-size: 100% 100%;
+
+}
+
+#work p{
+
+    background: white;
+    width: 29%;
+    margin-left: 34%;
+    transition: 2s all  ease-in;
+
+}
+
+#work p:hover{
+
+    transform: scale(1.5)
+
+
+} 
+
+#living{
+
+    background: url(nature.png);
+    background-size: 100% 100%;
+
+}
+
+#living p{
+
+    background: white;
+    width: 25%;
+    margin-left: 37%;
+    transition: 2s all  ease-in;
+
+}
+
+#living p:hover{
+
+    transform: scale(1.5)
+
+
+} 
+
+#travel{
+
+    background: url(live.jpg);
+    background-size: 100% 100%;
+
+}
+
+#travel p{
+
+    background: white;
+    width: 20%;
+    margin-left: 37%;
+    transition: 2s all  ease-in;
+
+}
+
+#travel p:hover{
+
+    transform: scale(1.5)
+
+} 
+
+.passion-work{
+
+    position: relative;
+    width: 1100px;
+    height: 600px;
+    margin-top: 29px;
+    float: right
+   
+}
+
+#purpose, #service, #hustle{
+
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 100%;
+    width: 33.09%;
+    text-align: center; 
+    border-right: 2px solid black
+}
+
+#purpose{
+
+    background: url(purpose.jpg);
+    background-size: 100% 100%;
+    transition: 3s all ease-in
+}
+
+#purpose h2{
+
+  box-sizing: border-box;
+  color: black;
+  background: white;
+  width: 30%;
+  margin-left: 35%;
+  text-align: center;
+  transition: 3s all ease-in
+
+}
+
+#purpose:hover{
+
+    background: url(get-shit-done.jpg);
+    background-size: 100% 100%;
+    transition: 3s all ease-in
+   
+  }
+
+
+  #purpose:hover:after{
+
+    content: "Who do you serve?";
+    color: black ;
+    background: white;
+    position: absolute;
+    left: 33%;
+    transition: 3s all ease-in
+
+  }
+
+ #purpose:hover>h2{
+
+   opacity: 0;
+    transition: 3s all ease-in
+  }
+
+#service{
+
+    background: url(service3.jpg);
+    background-size: 100% 100%;
+    transition: 3s all ease-in
+}
+
+#service h2{
+
+    box-sizing: border-box;
+    color: black;
+    background: white;
+    width: 30%;
+    margin-left: 35%;
+    text-align: center;
+    transition: 3s all ease-in
+ 
+  }
+
+  #service:hover{
+
+    background: url(service.jpg);
+    background-size: 100% 100%;
+    transition: 3s all ease-in
+   
+  }
+
+  
+  #service:hover:after{
+
+    content: "How do you serve?";
+    color: black;
+    position: absolute;
+    background: white;
+    color: black; 
+    left: 33%;
+    transition: 3s all ease-in
+  
+  }
+    
+ #service:hover>h2{
+
+   opacity: 0;
+   transition: 3s all ease-in
+   
+  }
+
+
+#hustle{
+
+    background: url(hustle2.jpg);
+    background-size: 100% 100%
+
+}
+
+#hustle h2{
+
+    box-sizing: border-box;
+    color: black;
+    background: white;
+    width: 30%;
+    margin-left: 35%;
+    text-align: center;
+  
+  
+  }
+
+  #hustle:hover{
+
+    background: url(self-development.jpg);
+    background-size: 100% 100%;
+    transition: 3s all ease-in
+   
+  }
+
+  
+  #hustle:hover:after{
+
+    content: "Start Serving";
+    color: black;
+    position: absolute;
+    background: white; 
+    color: black;
+    left: 37%;
+    transition: 3s all ease-in
+  
+  }
+    
+ #hustle:hover>h2{
+
+   opacity: 0;
+   transition: 3s all ease-in
+   
+  }

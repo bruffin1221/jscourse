@@ -1,0 +1,157 @@
+body{
+
+    background: black;
+}
+
+.epic-life{
+
+    background: black;
+    width: 1400px;
+    height: 1000px;
+    position: relative
+
+}
+
+.epic{
+
+    background: gray;
+    height: 800px;
+    width: 800px;
+    top: 50px;
+    left: 25%;
+    position: relative
+
+}
+
+.epic h1:first-child{
+
+    height: 800px;
+    width: 800px;
+    text-align: center;
+    margin-top: 0px;
+    position: absolute;
+    background-image: url(hustle.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    left: -100%;
+    opacity: 0;
+    transition: all 2s
+
+}
+
+
+
+.epic h1:nth-child(2){
+
+    height: 800px;
+    width: 800px;
+    text-align: center;
+    margin-top: 0px;
+    position: absolute;
+    background-image: url(wealth.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    left: -100%;
+    opacity: 0;
+    transition: all 2s
+
+}
+
+.epic h1:last-child{
+
+    height: 800px;
+    width: 800px;
+    text-align: center;
+    margin-top: 0px;
+    position: absolute;
+    background-image: url(travel2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    left: -100%;
+    opacity: 0;
+    transition: all 2s
+
+}
+
+.epic-life input[type="radio"]{
+
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+
+}
+
+.epic-life label.hustle{
+
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background: white;
+    position: absolute;
+    left: 45%;
+    top: 25px
+
+}
+
+.epic-life label.grind{
+
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background: white;
+    position: absolute;
+    left: 50%;
+    top: 25px
+
+}
+
+.epic-life label.play{
+
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background: white;
+    position: absolute;
+    left: 55%;
+    top: 25px
+
+}
+
+#hustle:checked ~ label.hustle{
+
+    background: gray
+
+}
+
+#grind:checked ~ label.grind{
+
+    background: gray
+
+}
+
+#play:checked ~ label.play{
+
+    background: gray
+
+}
+
+#hustle:checked ~ .epic h1:first-child{
+
+    opacity: 1;
+    left: 0px
+
+}
+
+#grind:checked ~ .epic h1:nth-child(2){
+   
+    opacity: 1;
+    left: 0px
+
+}
+
+#play:checked ~ .epic h1:last-child{
+
+    opacity: 1;
+    left: 0px
+
+}

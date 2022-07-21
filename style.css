@@ -1,0 +1,88 @@
+body{
+    background-color:rgb(124, 56, 8);
+}
+
+.positioning{
+
+    background-color: rgb(230, 175, 75);
+    color: black;
+    height: 100px;
+    width: 700px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    /* overflow: hidden*/
+   
+    
+   /* font-style: italic;*/
+   /* text-align: center;*/
+   /*  position: relative;*/
+   /*  top: 100px;*/
+  
+}
+
+.positioning:hover{
+    font-size: large;
+   /*  overflow: visible;*/
+    color: white;
+    margin: 20px
+
+}
+
+#positioning2{
+
+    background-color: rgb(80, 0, 0);
+    color: black;
+    height: 100px;
+    width: 700px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    letter-spacing: 4px;
+    text-shadow: 3px 3px  white;
+    text-align: right;
+  
+   /* position: absolute; */
+   /*  bottom: 150; */
+   /* z-index: 2; */
+   /* display: block */
+}
+
+#positioning3{
+
+    background-color: rgb(80, 0, 0);
+    color: white;
+    height: 100px;
+    width: 200px;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 10px;
+    text-decoration: underline;
+    font-size: 1.0em;
+    text-align: left;
+    font-family: cursive;
+    overflow: hidden;
+    white-space: nowrap
+     /*  position: fixed;*/
+     /*top: 45px;*/
+    /* right:100px;*/
+     /* z-index: 2;*/
+    /* display: none*/
+}
+
+.block{
+
+    color:darkgray;
+    font-size: xx-small
+
+}
+
+#positioning4{
+
+    background-color: crimson;
+    color: bisque;
+    height: 50px;
+    width: 200px;
+    padding: 20px 20px 20px 20px;
+
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+    <style>
+
+        #animation{
+
+            width: 100px;
+            height: 100px;
+            background: blue;
+            animation-name: anim;
+            animation-duration: 4s;
+
+        }
+
+        @keyframes anim{
+
+            from{
+               margin-left: 0px;
+                background: blue
+            }
+
+            to{
+                margin-left: 500px;
+                background: red
+            }
+        }
+
+        #animation-1{
+            
+            width: 100px;
+            height: 100px;
+            background: blue;
+            margin-top: 20px;
+            /* animation-name: anim1;
+            animation-duration: 10s;
+            animation-iteration-count: 4;
+            animation-timing-function: ease-in-out;
+            animation-direction: alternate */
+            animation: anim1 10s infinite ease-in alternate both
+        }
+        
+        @keyframes anim1{
+            
+            0%{
+                margin-left: 0px;
+                margin-top: 20px;
+                background: blue
+            }
+            
+            25%{
+                margin-left: 100px;
+                margin-top: 20px;
+                background: orange
+            }
+
+            50%{
+                margin-top: 100px;
+                margin-left: 100px;
+                background: yellow
+            }
+
+            75%{
+                margin-top: 100px;
+                margin-left: 0px;
+                background: green
+            }
+            100%{
+                margin-left: 0px;
+                margin-top: 20px;
+                background: blue
+            }
+
+        }
+
+
+    </style>
+    
+</head>
+<body>
+    <div id="animation"></div>
+    <div id="animation-1"></div>
+</body>
+</html>

@@ -1,0 +1,515 @@
+body{
+    background: black
+}
+
+#start-page{
+    background: url(quizbackground.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    top: -50px;
+    margin: 0 auto;
+    width: 1500px;
+    height: 700px; 
+}
+
+#start-page p{
+    font-size: 300%;
+    color: white;
+    position: relative;
+    text-align: center;
+}
+
+div#sign-in{
+    background: black;
+    position: relative;
+    opacity: .8;
+    top: 30%;
+    color: gray;
+    box-sizing: border-box;
+    width: 25%;
+    height: 50%;
+    margin: 0 auto;
+    border-radius: 10px
+}
+
+#sign-in form{
+    box-sizing: border-box;
+    width: 30%;
+    position: relative;
+    top: 30%;
+    left: 35%
+}
+
+#sign-in form input[type="text"]{
+    background: gray;
+    width: 100%;
+    border-radius: 5px
+}
+
+#sign-in form input[type="text"]:hover{
+    background: white;
+    width: 100%;
+}
+
+#sign-in form input[type="submit"]{
+    background: gray;
+    width: 70%;
+    position: relative;
+    left: 15%;
+    border-radius: 5px
+}
+
+#sign-in form input[type="submit"]:hover{
+    background: white
+}
+
+.admin-page{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: url(quizbackground.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    top: 300px;
+    margin: 0 auto;
+    width: 1500px;
+    height: 700px; 
+}
+
+.make-test{
+    display:grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+#write{
+    background: gray;
+    position: relative;
+    left: 80px
+}
+
+#write:hover{
+    background: white
+}
+
+#options{  
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: -12px
+
+}
+
+#options li{
+    list-style: none;
+    height: 30px
+    
+}
+
+input[type="text"]{
+    background: gray;
+    position: relative;
+    width: 400px;
+    left: 57px
+}
+
+
+input[type="text"]:hover{
+    background: white;
+}
+
+input[type="radio"]{
+    background-color: gray;
+    position: relative;
+    left: 55px
+}
+
+.answer{
+    background: white
+}
+
+#create-question{
+    position: relative;
+    background: gray;
+    position: relative;
+    margin: -12px;
+    left: 97px
+}
+
+button#clear-list{
+    float: right;
+    margin: 5px;
+    background: black;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 7px;
+    cursor: pointer
+}
+
+button#clear-list:hover{
+    background: gray
+}
+
+#question button:hover{
+    background: white
+}
+
+.add{
+    position: relative;
+    color: gray;
+    top: -30px;
+    bottom: 0px;
+    left: 493px;
+    font-size: 60%;
+    cursor: pointer
+}
+
+.addOptions{
+    color: gray;
+    font-size: 60%;
+    margin: -21px 0px 0px 491px;
+    cursor: pointer
+}
+
+.addOptions:hover{
+    color: white
+
+}
+
+.addUpOptions{
+    color: gray;
+    font-size: 60%;
+    margin: -21px 0px 0px 487px;
+    cursor: pointer
+}
+
+.addUpOptions:hover{
+    color: white
+
+}
+
+.deleteUpOptions{
+    color: gray;
+    font-size: 60%;
+    margin:  0px 0px 0px 487px;
+    cursor: pointer
+}
+
+.deleteUpOptions:hover{
+    color: white
+
+}
+
+.add:hover{
+    color: white
+}
+
+.update-options{
+    margin-top: -5px
+}
+
+.deleteOptions{
+    color: gray;
+    font-size: 60%;
+    cursor: pointer;
+    margin: 2px 0px 0px 491px
+}
+
+.deleteOptions:hover{
+    color: white
+
+}
+
+.update-button{
+    width: 120px;
+    height: 20px;
+    margin-left: 82px;
+    color: black;
+    background: gray;
+    text-align: left
+   
+}
+
+.update-button:hover{
+    background: white
+}
+
+.delete{
+    position: relative;
+    color: gray;
+    top: -37px;
+    left: 493px;
+    bottom: 0px;
+    font-size: 60%;
+    cursor: pointer
+}
+
+.delete:hover{
+    color: white
+}
+
+#question{
+    background: black;
+    color: gray;
+    box-sizing: border-box;
+    opacity: .8;
+    position: relative;
+    top: -1%;
+    left: 3%;
+    width: 90%;
+    height: 98%;  
+}
+
+#added-questions{
+    background: black;
+    box-sizing: border-box;
+    opacity: .8;
+    position: relative;
+    top: 10%;
+    left: 3%;
+    width: 90%;
+    height: 80%;  
+}
+
+#added-questions h5{
+    position: relative;
+    top: 3px;
+    left: 3px;
+    color: gray
+}
+
+#created-questions li{
+    margin-top: 5px;
+    color: gray;
+    font-weight: bold;
+    background: black;
+    height: 20px;
+    width: 625px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding:  1px;
+}
+
+.white{
+    background: gray
+}
+
+.white:hover{
+    background: white
+}
+
+button.edit-question{
+    margin-top: 3px;
+    float: right;
+    margin-right: 5px;
+    text-align: center;
+    font-size: 50%;
+    height: 15px;
+    width: 32px;
+    background: black;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 7px;
+    cursor: pointer
+}
+
+button.edit-question:hover{
+    background: gray;
+    color: black
+}
+
+
+#quiz-results{
+    background: black;
+    color: gray;
+    box-sizing: border-box;
+    opacity: .8;
+    position: relative;
+    top: 10%;
+    left: 3%;
+    width: 90%;
+    height: 80%;
+}
+
+.test-page{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: url(quizbackground.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    top: 500px;
+    margin: 0 auto;
+    width: 1500px;
+    height: 700px; 
+}
+
+.test{
+    background: black;
+    color: gray;
+    box-sizing: border-box;
+    opacity: .8;
+    position: relative;
+    top: 3%;
+    left: 3%;
+    width: 90%;
+    height: 96%;
+}
+
+button.start{
+
+    background: black;
+    color: gray;
+    border: 1px solid white;
+    border-radius: 40px;
+    font-size: 200%;
+    width: 300px;
+    height: 100px;
+    margin-left: 175px;
+    margin-top: 200px
+}
+
+button.start:hover{
+    background: white
+}
+
+.upbutton{ 
+    background: black;
+    color: gray;
+    border: 1px solid white;
+    border-radius: 12px;
+    width: 70px;
+    height: 30px;
+    margin-right: 40px;
+    margin-top: 600px;
+    float: right
+}
+
+.upbutton:hover{
+    background: white;
+    color: black
+}
+
+.downbutton{ 
+    background: black;
+    color: gray;
+    border: 1px solid white;
+    border-radius: 12px;
+    width: 70px;
+    height: 30px;
+    margin-left: 40px;
+    margin-top: 600px;
+    float: left
+}
+
+.downbutton:hover{
+    background: white;
+    color: black
+}
+
+.finish-button{ 
+    background: black;
+    color: gray;
+    border: 1px solid white;
+    border-radius: 12px;
+    width: 70px;
+    height: 30px;
+    margin-right: 40px;
+    margin-top: 372px;
+    float: right
+}
+
+.finish-button:hover{
+    background: white;
+    color: black
+}
+
+.finish-test{
+
+    font-size: 300%;
+    margin-left: 165px;
+    margin-top: 100px
+
+
+}
+
+
+.testParagraph{
+
+    color: gray;
+    font-size: 125%;
+    margin-top: 50px
+
+}
+
+.option-tests{
+    list-style: none;
+    margin-top: 10px
+}
+
+.option-tests li{
+
+    margin-top: 30px
+}
+
+.option-answer{
+    margin-top: -22px;
+    margin-left: 116px
+
+}
+
+.get-results{
+    background: black;
+    box-sizing: border-box;
+    opacity: .8;
+    position: relative;
+    top: 40%;
+    left: 30%;
+    width: 50%;
+    height: 40%;
+    border-radius: 10px
+}
+
+#your-results{
+    background: gray;
+    border: 5px solid white;
+    position: relative; 
+    top: 18%;
+    left: 9%;
+    width: 80%;
+    height: 60%;
+    border-radius: 10px
+}
+
+#left{
+    box-sizing: border-box;
+    width: 50%;
+    height: 100%;
+    float: left;
+   
+}
+
+#right{
+    box-sizing: border-box;
+    width: 49%;
+    height: 100%;
+    float: right;
+    border-left: 5px solid white
+}
+
+.done-page{
+    background: url(quizbackground.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    top: 800px;
+    margin: 0 auto;
+    width: 1500px;
+    height: 700px; 
+}
+#log-out{
+    background: black;
+    color: gray;
+    box-sizing: border-box;
+    opacity: .8;
+    position: relative;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}

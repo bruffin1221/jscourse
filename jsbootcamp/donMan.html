@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title>DOM Manipulation</title>
+        <link rel="stylesheet" href="dom.css">
+
+    </head>
+    <body>
+
+        <div id="notes">
+        
+            <div id="note-manager">
+
+                <p>Notes</p>
+                <form>
+
+                    <input type="text" id="search" placeholder="Search Note">
+            
+                </form>
+
+
+
+
+            </div>
+
+           
+
+            <div id="note">
+                <ul class = "searched">
+
+                </ul>
+                <ul class="note-list">
+                    <li>
+                       
+                        <p class="list-item">First Note</p>
+                        <div class="trash"></div>
+                        <div class="edit"></div>
+                        <input type="text" class="edit-notes">
+                    </li>
+                     <li>
+                       
+                        
+                        <p class="list-item">Second Note</p>
+                        <div class="trash"></div>
+                        <div class="edit"></div>
+                         <input type="text" class="edit-notes" >
+                    </li>
+                    <li>
+                        
+                        <p class="list-item">Third Note</p>
+                        <div class="trash"></div>
+                        <div class="edit"></div>
+                        <input type="text" class="edit-notes"> 
+                    </li>
+                </ul>
+
+                <div id="hide">
+                    <p>Hide Notes</p>
+                </div>
+
+               
+            </div>
+
+            <div id="new-note">
+                <form id="new-button">
+                    <input type="text" placeholder="Add Note" id="add-button">
+                    <input type="submit" value="Add" id="add-btn"> 
+                </form>
+               
+            </div>
+
+        </div>
+
+
+
+    </body>
+    <script src="dom.js"> </script>
+
+
+
+
+</html>

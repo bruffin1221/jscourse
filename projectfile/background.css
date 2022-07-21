@@ -1,0 +1,160 @@
+body{
+
+    background: black
+
+}
+
+#cool-looking{
+
+    background-color: red;
+    background-image: url(live.jpg);
+    background-repeat: repeat;
+    background-repeat: repeat-x;
+    background-position: 0px 85px;
+    background-size: 25%;
+    height: 400px;
+    width: 1000px;
+    margin-top: 10%;
+    margin-left: 20%;
+    font-weight: 900;
+    font-size: 400%;
+    padding: 2.5%;
+    border: 15px solid blue;
+    
+}
+
+#cool-looking p:first-child{
+
+    font-size: medium;
+    color: white;
+    position: relative;
+    top: -72px;
+    left: -39px
+
+}
+
+#cool-looking p:nth-child(2){
+
+    font-size: medium;
+    color: white;
+    position: relative;
+    top: -90px;
+    left: -39px
+
+}
+
+#cool-looking p:last-child{
+
+   text-align: center;
+   box-sizing: border-box;
+   position: relative;
+   background: transparent;
+   font-size: 400%;
+   width: 105%;
+   height: 105%;
+   top: -335px;
+   left: -25px
+  
+}
+ 
+
+#gradients{
+
+    background: linear-gradient(90deg, red 10%, orange 85%, yellow 5%);
+    height: 400px;
+    width: 1000px;
+    margin-top: 10%;
+    margin-left: 20%;
+    font-weight: 900;
+    font-size: 400%;
+    padding: 2.5%;
+    border: 15px solid blue;
+    
+}
+
+#gradients p:first-child{
+
+    font-size: medium;
+    color: white;
+    position: relative;
+    top: -72px;
+    left: -39px
+
+}
+
+#gradients p:nth-child(2){
+
+    font-size: medium;
+    color: white;
+    position: relative;
+    top: -90px;
+    left: -38px
+
+}
+
+
+#gradients p:last-child{
+
+   text-align: center;
+   box-sizing: border-box;
+   color: white;
+   position: relative;
+   background: transparent;
+   font-size: 400%;
+   width: 105%;
+   height: 105%;
+   top: -335px;
+   left: -25px
+  
+}
+
+#radial-gradients{
+
+    background: repeating-radial-gradient(circle closest-side at 10% 10%, red, orange, yellow),
+     repeating-radial-gradient(circle farthest-side at 100% 50%, orange, green);
+    height: 400px;
+    width: 1000px;
+    margin-top: 10%;
+    margin-left: 20%;
+    font-weight: 900;
+    font-size: 400%;
+    padding: 2.5%;
+    border: 15px solid blue;
+    
+}
+
+#radial-gradients p:first-child{
+
+    font-size: medium;
+    color: white;
+    position: relative;
+    top: -72px;
+    left: -39px
+
+}
+
+#radial-gradients p:nth-child(2){
+
+    font-size: medium;
+    color: white;
+    position: relative;
+    top: -90px;
+    left: -38px
+
+}
+
+
+#radial-gradients p:last-child{
+
+   text-align: center;
+   box-sizing: border-box;
+   color: white;
+   position: relative;
+   background: transparent;
+   font-size: 400%;
+   width: 105%;
+   height: 105%;
+   top: -335px;
+   left: -25px
+  
+}

@@ -1,0 +1,134 @@
+body{
+
+    background:  white
+
+}
+
+.border-radius{
+
+    background-image: url(mountain.png);
+    background-size: 100% 100%;
+    width: 800px;
+    height: 600px;
+    position: relative;
+    left: 23%;
+    border-width: 10px;
+    border-style: outset;
+    border-color: blue black
+ 
+}
+
+.radius{
+
+    background: url(live.jpg);
+    background-size: 100% 100%;
+    border-radius: 150px 50px 200px 50px/100px 50px 75px 200px;
+    position: relative;
+    margin-top: 20px;
+    width: 800px;
+    height: 600px;
+    left: 23%;
+    border-width: 10px;
+    border-style: outset;
+    border-color: blue black
+
+}
+
+.border-image{
+
+    background: url(nature.png);
+    background-size: 100% 100%;
+    height:600px;
+    width: 800px;
+    position: relative;
+    margin-top: 40px;
+    left: 25%;
+    border: 5px solid black
+}
+
+
+.black{
+
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    height: 90%;
+    width: 90%;;
+    background: black;
+    text-align: center;
+    top: 5%;
+    margin: 5%;
+  
+}
+
+
+.black p{
+
+    font-size: 1100%;
+    font-weight: 900;
+    position: relative;
+    -webkit-background-clip: text;
+     background-clip: text;
+    background-image: url(nature.png);
+    padding-top: 20%;
+    color: transparent;
+    margin-top: -40px
+   
+}
+
+.filter{
+
+    position: relative;
+    width: 1300px;
+    height: 800px;
+    background: white;
+    margin-top: 25px;
+    left: 7%
+
+}
+
+.work-hard{
+
+    display: inline-block;
+    box-sizing: border-box;
+    background: url(get-shit-done.jpg);
+    background-size: 100% 100%;
+    height: 100%;
+    width: 49%;
+    border: 7px solid black;
+    filter: grayscale(100%) blur(5px);
+    transition: all 3s ease-in
+
+
+}
+
+.work-hard:hover{
+
+    filter: grayscale(0%) blur(0px);
+    transition: all 3s
+}
+  
+
+.play-harder{
+
+    display: inline-block;
+    box-sizing: border-box;
+    background: url(travel.png);
+    background-size: 100% 100%;
+    height: 100%;
+    width: 49%;
+    border: 7px solid black;
+    margin-left: 21px;
+    filter: grayscale(120%) blur(5px);
+    transition: all 3s ease-in
+    
+}
+
+.play-harder:hover{
+
+    filter: grayscale(0%) blur(0px);
+    transition: all 3s
+
+}
+
+

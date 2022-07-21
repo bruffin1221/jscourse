@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quizzapp.css">
+    <title>Quiz App</title>
+</head>
+<body>
+    <section id="start-page">
+        <p>Test Your Knowledge</p>
+
+        <div id="sign-in">
+            <form>
+                <label for="first-name">First Name</label>
+                <br>
+                <input type="text" id="first-name">
+                <br>
+                <br>
+                <label for="last-name">Last Name</label>
+                <br>
+                <input type="text" id="Last Name">
+                <br>
+                <input type="submit" value="Start Quiz">
+            </form>
+
+        </div> 
+    </section>
+
+
+
+    <section class="admin-page">
+        
+        <div class="make-test">
+            
+            <div class="make-guestions">
+                <div id="question">
+                    <button id="clear-list">Clear List</button> 
+                    <h2>Add Questions</h2>
+                  
+                    <textarea name="Write Questions" value="Write questions" id="write" cols="60" rows="3"></textarea>
+                    
+                    <ul id="options">
+                        <li>
+                            <input type="radio" class="answer">
+                            <input type="text" class="written-answers">
+                            <p class="add">Add</p>
+                            <p class="delete">Delete</p>
+                         </li>
+                         <li>
+                            <input type="radio" class="answer">
+                            <input type="text" class="written-answers">
+                            <p class="add">Add</p>
+                            <p class="delete">Delete</p>
+                         </li>
+                         <li>
+                            <input type="radio" class="answer">
+                            <input type="text" class="written-answers">
+                            <p class="add">Add</p>
+                            <p class="delete">Delete</p>
+                        </li>
+
+                    </ul>
+                    <button id="create-question">Create Question</button>
+                   </div>
+                </div>
+
+            <div class="questions">
+                
+                <div id="added-questions">
+                    <h5>Quiz Questions</h5>
+                    <ol id="created-questions">
+                    
+
+                    </ol>
+                </div>
+                   
+            </div>
+
+           </div>
+
+           <div class="results">
+               <div id="quiz-results">
+                   <h2>Results</h2> 
+               </div>
+           </div>
+
+    </section>
+
+    <section class="test-page">
+        
+
+        <div class="test">
+
+            <button class="start">Start</button>
+
+        </div>
+
+        <div class="get-results">
+            <div id="your-results">
+                <div id="right"></div>
+                <div id="left"></div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="done-page">
+        <div id="log-out">
+
+        </div>
+
+    </section>
+   
+    
+</body>
+<script src="quizapp.js"> </script>
+</html>

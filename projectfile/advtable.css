@@ -1,0 +1,62 @@
+
+body{
+
+    background: rgb(37, 5, 5);
+    color: white
+    
+}
+
+h1{
+
+    text-align: center
+}
+
+
+.table-container{
+    
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 120px;
+    background: yellow;
+    color: black;
+    overflow: scroll
+
+}
+
+.table-container table, th, tr, td{
+
+    border: 1px solid black
+}
+
+
+.table-container table{
+
+   
+    width: 50%; 
+    position: absolute;
+    left: 25%
+}
+
+.table-container th{
+
+    position: -webkit-sticky;
+    position: sticky;
+   
+}
+
+
+.table-container tbody>tr>:nth-child(odd){
+
+    background:  gray;
+    color: white
+
+}
+
+.table-container tbody>tr:hover{
+
+    transform: scale(1.1)
+    
+}
+
+

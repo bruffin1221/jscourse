@@ -1,0 +1,210 @@
+body{
+
+    background: rgb(160, 101, 52);
+    color: white
+
+}
+
+.webpage{
+
+    background: url(hiking3.jpg); 
+    background-size: 100% 100%;
+    width: 100%;
+    height: 800px
+
+}
+
+#worth-living{
+
+    background: rgb(134, 125, 73);
+    box-sizing: border-box;
+    position: relative;
+    width: 20%;
+    height: 55px;
+    text-align: center;
+    margin-left: 40%;
+    top: 30%
+
+}
+
+#worth-living p{
+    position: relative;
+    top: -26px;
+   
+
+}
+
+#awesome-life{
+
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background: maroon;
+    width: 30%;
+    height: 4%;
+    left: 33%;
+    top:31%;
+    justify-content: space-evenly;
+   
+}
+
+
+#passionate-w p, #active-living p, #travel p{
+
+
+    font-size: 100%;
+    margin-top: 4px
+}
+
+#passion{
+
+    display: block;
+    text-align: center;
+    background: rgb(102, 94, 46)
+   
+}
+
+#passion p{
+
+   margin-top: -19px
+}
+
+#passionate-work{
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+overflow: hidden;
+height: 450px;
+width: 90%;
+margin-left: 5%
+
+
+}
+
+#purpose, #service, #hustle{
+
+    width: 25%;
+    height: 75%
+}
+
+
+#purpose{
+
+    background: url(arrow.jpg);
+    background-size: 100% 100%;
+  
+
+}
+
+#purpose p:first-child{
+
+    display: border-box;
+    width: 20%;
+    background: brown;
+    margin-left: 40%;
+    margin-top: 1px
+}
+
+#purpose p:last-child{
+
+    display: border-box;
+    width: 90%;
+    padding: 2px;
+    height: 87%;
+    background: brown;
+    margin-left: 5%;
+    margin-top: -8px;
+    overflow: hidden;
+    padding: 3px
+}
+
+#purpose:hover{
+
+    height: 100%
+
+}
+
+#purpose:hover> p:last-child{
+
+    height: 90%
+
+}
+
+
+#service{
+
+    background: url(work.jpg);
+    background-size: 100% 100%;
+    overflow: hidden
+
+}
+
+#service p:first-child{
+
+    display: border-box;
+    width: 20%;
+    background: brown;
+    margin-left: 40%;
+    margin-top: 1px
+}
+
+#service p:last-child{
+
+    display: border-box;
+    width: 90%;
+    background: brown;
+    margin-left: 5%;
+    margin-top: -8px;
+   
+}
+
+#service:hover{
+
+    height: 100%
+
+}
+
+#service:hover> p:last-child{
+
+    height: 100%
+
+}
+
+#hustle{
+
+    background: url(hustle.jpg);
+    background-size: 100% 100%;
+
+}
+
+
+#hustle p:first-child{
+
+    display: border-box;
+    width: 20%;
+    background: brown;
+    margin-left: 40%;
+    margin-top: 1px
+}
+
+#hustle p:last-child{
+
+    display: border-box;
+    width: 90%;
+    background: brown;
+    margin-left: 5%;
+    margin-top: -8px
+}
+
+#hustle:hover{
+
+    height: 100%
+
+}
+
+#hustle:hover> p:last-child{
+
+    height: 100%
+
+}

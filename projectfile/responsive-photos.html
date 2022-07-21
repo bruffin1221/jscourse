@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Responsive Photo</title>
+        <link rel="stylesheet" href="responsive-photo.css">
+
+    </head>
+
+    <body>
+
+        <img srcset=" mountains-480w.jpg 480w,
+        mountains-800w.jpg 800w
+        mountains-1000w.jpg 1000 1000w"
+        sizes="(max-width: 799px) 480px,
+        (max-width: 999px)800px,
+        (min-width: 1000px)1000px "
+        src="mountains-480w.jpg"
+        alt="Beautiful Mountains">
+
+    </body>
+
+
+</html>

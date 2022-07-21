@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitions and Transforms</title>
+    <style>
+
+        #tran1{
+
+            width: 100px;
+            height: 100px;
+            background: orangered;
+            transition-property: transform;
+            transition-duration: 5s;
+            transition-delay: 1s;
+            transition: all 5s ease 3s 
+        }
+
+        #tran1:hover{
+
+            transform: translateX(400px);
+            background: green
+
+        }
+
+        #box{
+
+            width: 100px;
+            height: 100px;
+            background: red;
+            color: white;
+            position: relative;
+            top: 20px;
+            transition: transform 5s ease-in-out
+        }
+
+        #box:hover{
+
+            transform: translate(200px, 200px)
+    
+        }
+
+        #box h2{
+
+            position: relative;
+            top: 25%;
+            left: 25%;
+           
+        }
+
+        #rotateX{
+            width: 100px;
+            height: 100px;
+            background: red;
+            color: white;
+            position: relative;
+            top: 20px;
+            transition: transform 5s ease-in-out
+        }
+
+        #rotateX:hover{
+            transform: rotateX(360deg)
+        }
+
+        #rotateY{
+            width: 100px;
+            height: 100px;
+            background: red;
+            color: white;
+            position: relative;
+            top: 20px;
+            transition: transform 5s ease-in-out
+        }
+
+        #rotateY:hover{
+            transform: rotateY(360deg)
+        }
+
+        #skew{
+            width: 100px;
+            height: 100px;
+            background: red;
+            color: white;
+            position: relative;
+            top: 20px;
+            transition: transform 5s ease-in-out
+        }
+
+        #skew:hover{
+            transform: skew(30deg, 30deg)
+        }
+
+
+        #scale{
+            width: 100px;
+            height: 100px;
+            background: red;
+            color: white;
+            position: relative;
+            top: 20px;
+            transition: transform 5s ease-in-out
+        }
+
+        #scale:hover{
+            transform: scale(1.5)
+        }
+    </style>
+</head>
+<body>
+    <div id="tran1">
+
+
+    </div>
+
+    <div id="box"><h2>BOX</h2></div>
+    <div id="rotateX"><h2>BOX</h2></div>
+    <div id="rotateY"><h2>BOX</h2></div>
+    <div id="skew"><h2>BOX</h2></div>
+    <div id="scale"><h2>BOX</h2></div>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+   <html>
+
+     <head>
+         <title>HTML Form</title>
+         <link rel="stylesheet" href="form.css">
+     </head>
+
+     <body>
+
+        <form>
+            <p>Product</p>
+
+              <label for="product-name">Product Name</label>
+              <br>
+              <input type="text" id="product-name" placeholder="" disabled value="Lion150 Squat Rack">
+              <br>
+              <br>
+              <label for="product-price">Product Price</label>
+              <br>
+              <input type="text" id="product-price"  placeholder=""  disabled value="$234.33">
+
+            <p>Shipping Information</p>
+              
+              <label for="first-name">First Name</label>
+              <input type="text" id="first-name" placeholder=" " required>
+              <span class="product-field"></span>
+              <br>
+              <br>
+              <label for="last-name">Last Name</label>
+              <input type="text" id="last-name" placeholder=" " required>
+              <span class="product-field"></span>
+              <br>
+              <br>
+              <label for="street-address"> Street Address</label>
+              <input type="text" id="street-address" placeholder=" " required>
+              <span class="product-field"></span>
+              <br>
+              <br>
+              <label for="city">City</label>
+              <input type="text" id="city" plaeholder=" "  required>
+              <span class="product-field"></span>
+              <br>
+              <br>
+              <label for="state">State</label>
+              <input type="text" id="state" placeholder=" " required>
+              <br>
+              <br>
+              <label for="zip-code">Zip Code</label>
+              <input type="text" id="zip-code" placeholder=" " required>
+              <span class="product-field"></span>
+
+            <p>Payment Information</p>
+
+              <label for="credit-card">Credit Card</label>
+              <br>
+              <select name="credit-card-name" id="credit-card">
+
+                <option value="">Please Select a Credit Card</option>
+                <option value="visa">Visa</option>
+                <option value="master-card">Credit Card</option>
+                <option value="discover">Discover</option>
+                <option value="american-express">American Express</option>
+
+              </select>
+              <br>
+              <br>
+              <label for="credit-card-number">Credit Card Number</label>
+              <input type="text" id="credit-card-number" placeholder="" pattern="[0-9]{10,14}"required >
+              <span class="product-field"></span>
+
+              <p>Shipping Information</p>
+              
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder=" " required>
+                <span class="product-field"></span>
+                <br>
+                <br>
+                <label for="password">Password(minimum of 8 characters)</label>
+                <input type="password" id="password" placeholder=" " pattern="[A-Za-z]{8,}" required>
+                <span class="product-field"></span>
+                <br>
+                <br>
+                <button type="submit"> Submit</button>
+
+
+
+        </form>
+
+
+
+     </body>
+
+
+
+
+   </html>

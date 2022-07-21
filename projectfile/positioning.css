@@ -1,0 +1,81 @@
+body{
+
+    background: black;
+    color: white;
+
+}
+
+h1{
+
+    display: block;
+    text-align: center
+}
+
+
+#container{
+
+    width: 90%;
+    height: 900px;
+    margin-left: 5%;
+    background: transparent;
+    color: black
+
+}
+
+.passionate-work{
+
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    background-image: url(get-shit-done.jpg);
+    background-size: 100% 100%;
+    height: 100%;
+    width: 33%;
+    border: 3px solid white
+
+    
+}
+.active-living{
+
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    background-image: url(active-living.jpg);
+    background-size: 100% 100%;
+    top: -22px;
+    height: 100%;
+    width: 33%;
+    border: 3px solid white
+
+}
+
+.travel{
+
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    top: -22px;
+    background-image: url(travel3.jpg);
+    background-size: 100% 100%;
+    height: 100%;
+    width: 33%;
+    border: 3px solid white
+   
+}
+
+.white-space{
+
+    background: white;
+    color:black;
+    box-sizing: border-box;
+    width: 30%;
+    margin-left: 35%
+   
+}
+
+.white-space h3{
+
+    text-align: center;
+  
+}
+

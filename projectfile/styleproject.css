@@ -1,0 +1,194 @@
+body{
+
+    background-color: rgb(15, 15, 15)
+
+}
+
+#container{
+
+    width:  1200px;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: rgb(223, 207, 121);
+    margin: 0 auto;
+
+}
+
+#header{
+
+    width:  1000px;
+    height: 100px;
+    margin: 0 auto;
+    border: 1px solid black;
+    background-color: maroon; 
+
+}
+
+
+.h1{
+
+    margin: 5px;
+    float: left;
+     
+}
+
+.standard{
+
+    color: black;
+    text-decoration: none;
+
+}
+
+#searchbox{
+
+    float: right;
+    background-color: rgb(90, 89, 89);
+    padding: 10px
+
+}
+
+.text{
+
+    color: maroon;
+    font-weight: 700
+
+}
+
+.submit{
+
+    background-color: maroon;
+    color: black;
+    font-weight:800;
+   
+}
+
+#menu{
+
+    background-color: rgb(131, 163, 131);
+    color: black;
+    width: 1000px;
+    height: 50px;
+    margin: 0 auto;
+   
+}
+
+#menu-list{ 
+
+    list-style-type: none;
+    text-align: center;
+   
+   
+}
+
+#menu-list li{
+
+    display: inline-block;
+    font-weight: bold;
+    padding-right: 20px;
+    margin: 20px; 
+    border-style: none solid none none;
+    transition: font-size .8s, color .8s linear;
+
+}
+
+#menu-list li:last-child{
+
+    border-style: none
+
+}
+
+#menu-list li:hover{
+
+    font-size: x-large;
+    color: maroon
+
+}
+
+#introduction{
+
+    width: 985px;
+    background: rgb(153, 150, 150);
+    padding: 10px; 
+    margin: 0 auto;
+
+}
+
+#introduction p{
+
+    text-align: justify;
+}
+
+#sidebar-container{
+
+    background-color: rgb(223, 207, 121);
+    width: 700px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.sidebar {
+
+    text-align: center;
+    border-color: rgb(31, 68, 31);
+    border-style: solid;
+    width:300px;
+    height: 250px;
+    border-radius: 40px
+  
+
+}
+
+#sidebar1{
+    
+    float: left
+}
+
+#sidebar1 h2{
+
+    font-weight: normal;
+    font-family: system-ui;
+}
+
+
+#sidebar2{
+    
+    float: right
+
+}
+
+#sidebar2 h2{
+
+    font-weight: normal;
+    font-family: system-ui;
+}
+
+#sidebar1 ul{
+
+    list-style-type: none
+
+}
+
+#sidebar1 li{
+    
+    transition: font-size .8s, color .8s linear;
+    list-style-type: none;
+    color: maroon;
+    font-family: system-ui;
+    transition: color .3, font-size .3
+
+}
+
+#sidebar1 li:hover{
+
+    color: rgb(31, 68, 31);
+    font-size: large
+
+}
+
+#sidebar2 li{
+    
+    list-style-type: none;
+    color: maroon;
+    font-family: system-ui;
+
+}

@@ -1,0 +1,194 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <title>List Styles</title>
+        </head>
+        <style>
+            ul.list1{
+                list-style: square;
+            }
+
+           .red{
+               color: black
+           }
+
+           .red:hover{
+               color: red
+           }
+
+           ul.list2{
+               list-style: circle
+           } 
+
+           .x-large:hover{
+               font-size: large;
+           }
+
+           #travel{
+               background-color: blue;
+               color: white;
+               height: 100px;
+               margin: 20px;
+               padding: 10px
+           }
+
+           a{
+               
+            color: white
+           }
+
+           a:hover{
+               font-size: large
+           }
+
+           a:visited{
+               color: brown
+           }
+
+           .gradient{
+
+              background: linear-gradient(blue, white);
+               height: 100px;
+               width: 200px;
+               margin: 20px;
+               padding: 10px;
+               transition: width 1s; background: 1s;
+           }
+
+           .gradient:hover{
+
+               width: 400px;
+               background: linear-gradient(red, white)
+           }
+
+           
+
+           .gradient2{
+              background: linear-gradient(to left, blue, red, white);
+               height: 100px;
+               width: 200px;
+               margin: 20px;
+               padding: 10px
+           }
+
+           .gradient3{
+              background: linear-gradient(to left, blue, white);
+               height: 100px;
+               margin: 20px;
+               padding: 10px;
+              animation: myanimation 3s infinite
+           }
+           @keyframes myanimation{
+
+            from {background: linear-gradient(to left, white, blue)}
+            to {background: linear-gradient(to left, blue,red)}
+
+           }
+
+
+           #gradient4{
+               background: radial-gradient(circle at 100%, red, red 50%,blue 75%, blue 75%);
+               height: 100px;
+               margin: 20px;
+               padding: 10px
+           }
+
+           #transform{
+
+               background-color: red;
+               transform: rotate(45deg); 
+               color: white;
+               height: 200px;
+               width: 200px;
+               margin: 60px;
+               padding: 10px;
+               
+           }
+
+           .transform3{
+
+               background-color: red;
+              /* transform: rotateX(45deg);*/ 
+               transform: rotateY(45deg);
+               color: white;
+               height: 200px;
+               width: 200px;
+               margin: 60px;
+               padding: 10px;
+               animation: muopacity 3s infinite
+
+           }
+           @keyframes muopacity{
+               from {opacity: 1;}
+               to {opacity: .25}
+            }
+        </style>
+
+        <body>
+
+            <p><strong>List of goals</strong></h2>
+            <ul class="list1">
+                <li class="red">Improve my HTML and CSS skills</li>
+                <li class="red">Learn React</li>
+                <li class="red">Improve my Ruby and JS programming skills</li>
+                <li class="red" >Build and host my goal setting and fitness web pages</li>
+                <li class="red">Find a job in web development </li>
+                <li class="red">Monetize web pages</li>
+                <li class="red">Start traveling and making money</li>
+            </ul>
+
+            <p><strong>List of Desires</strong></h2>
+                <ul class="list2">
+                    <li class="x-large">Travel to Astoria</li>
+                    <li class="x-large" >Visit Tumalo Falls</li>
+                    <li class="x-large" >Spend time in Seattle, Washington</li>
+                    <li class="x-large">Go visit Old Perpetual</li>
+                    <li class="x-large">Build a business </li>
+                    <li class="x-large">Make more money</li>
+                </ul>
+
+             <div id="travel">
+                 <p>I want to go to the tropics</p>
+                 <a href="https://www.planetware.com/seychelles/best-tropical-vacations-sey-1-12.htm">Visit Link</a>
+
+            </div>
+
+            <div class="gradient">
+                
+
+           </div>
+
+           <div class="gradient2">
+
+
+           </div>
+
+           <div class="gradient3">
+
+
+           </div>
+
+           <div id="gradient4">
+
+
+           </div>
+           <div id="transform">
+               <p>I hate facebook and social justice warriors.</p>
+
+           </div>
+
+           <div class="transform3">
+
+            <p>I hate facebook and social justice warriors.</p>
+
+           </div>
+
+           
+
+
+        </body>
+
+    </html>
+
+    <h1 class="grind">Grind Hard</h1>
+    <h1 class="play">Play Hard</h1>

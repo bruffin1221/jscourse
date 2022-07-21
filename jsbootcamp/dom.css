@@ -1,0 +1,200 @@
+body{
+
+    background: black;
+
+}
+
+#notes{
+
+    background: url(notebook.jpg);
+    background-size: 100% 100%;
+    width: 50%;
+    height: 700px;
+    margin: 0 auto
+
+}
+
+.changeFont{
+
+    color: blue;
+    font-size: 200%;
+    opacity: .5
+
+}
+
+.changeBg{
+
+  transform: skew(20deg) translateX(120px);
+  border: 1px solid black 
+
+}
+
+.transform{
+    transform: scale(1.5) rotateZ(50deg)
+}
+
+.reverse{
+    transform:  translateY(-20px) rotateZ(-50deg);
+    border: 1px solid purple;
+}
+
+#note-manager{
+
+  background: brown;
+  color: white;
+  box-sizing: border-box;
+  height: 10%;
+  opacity: .8
+
+}
+
+#note-manager p{
+
+    font-size: 250%;
+    text-align: center
+
+}
+
+#note-manager form{
+
+    margin-top: -40px;
+    text-align: center
+
+}
+
+#note-manager input{
+
+    text-align: center
+}
+
+#note{
+
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 13%;
+    width: 70%;
+    height: 70%;
+    background: white;
+    opacity: .8;
+    color: black
+    
+}
+
+#note p{
+
+   position: relative;
+   margin-left: 5px;
+   margin-bottom: -18px
+
+}
+
+.note-list{
+
+    position: relative;
+    top: 15%;
+    margin-bottom: 0px
+
+}
+
+#note li{
+
+    list-style-type: none;
+    margin-left: -37px
+    
+}
+
+#note input{
+
+    margin-top: -25px;
+    width: 98%;
+    height: 20px;
+    border: none;
+    border-bottom: 1px solid rgb(131, 127, 127);
+    border-left: 1px solid rgb(161, 156, 156);
+    padding: 0px;
+    font-size: 12px
+    
+      
+}
+
+#note input:hover{
+
+    margin-top: 18px;
+    
+ }
+
+#note input:focus{
+
+   margin-top: 18px;
+   opacity: 1;
+   
+}
+#new-note{
+
+    position: relative;
+    margin-left: 32%;
+    margin-top: -12%;
+
+}
+
+#new-note input[type="text"]{
+
+    border: 1px solid black;
+    height: 10%;
+    width: 40%;
+  
+   
+}
+
+#hide{
+
+    margin-top: 50%;
+    color: blue;
+    font-size: 10px
+
+}
+
+.hide{
+    
+  visibility: hidden
+}
+
+
+.visible{
+    
+    visibility: visible
+  }
+
+.trash{
+
+    position: absolute;
+    background: url(trash.svg);
+    background-size: 100% 100% ;
+    height: 10px;
+    width: 10px;
+    left: 90%
+}
+
+.edit{
+
+    position: absolute;
+    background: url(edit.svg);
+    background-size: 100% 100% ;
+    height: 10px;
+    width: 10px;
+    left: 85%
+}
+
+.goBack{
+
+    font-size: 50%;
+    color:blue;
+    position: relative;
+    left: -40px
+}
+
+
+
+
+

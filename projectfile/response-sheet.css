@@ -1,0 +1,172 @@
+body{
+
+    background: rgb(37, 5, 5);
+    color: white
+
+}
+
+h1{
+
+    text-align: center
+
+}
+
+.responsive-table{
+
+    height: 500px;
+    margin: 0 auto;
+    width: 75%;
+    position: relative;
+    top: 100px;
+    overflow: scroll;
+    background: orange;
+    color: black
+}
+
+.responsive-table table{
+
+    width: 100%
+}
+
+.responsive-table table,
+.responsive_table th, 
+.responive-table tr,
+.responsive-table td{
+
+    border: 1px solid black 
+
+}
+
+.responsive-table tr{
+
+    transform: all .5s
+}
+
+.responsive-table tr:nth-child(even){
+
+    background: yellow
+    
+}
+
+.responsive-table tr:hover{
+
+    background: brown;
+    color: black 
+
+}
+
+@media screen and (max-width: 900px){
+
+   .responsive-table table,
+   .responsive-table tr,
+   .responsive-table td{
+
+      display: block;
+      width: 600px;
+      position: relative;
+      box-sizing: border-box;
+      border: none
+
+   }
+
+   .responsive-table th{
+       
+     position: relative;
+     display: none
+
+   }
+
+   .responsive-table tr{
+
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+   }
+
+   .responsive-table tbody>tr>td:first-child{
+
+       grid-column: span 2;
+       position: absolute;
+       background: brown
+  
+   }
+
+   .responsive-table tbody>tr>td:not(:first-child){
+
+       position: relative;
+       width: 300px;
+      
+     
+   }
+
+   .responsive-table tbody>tr>td:nth-child(2),
+   .responsive-table tbody>tr>td:nth-child(3){
+
+       position: relative;
+       margin-top: 18px
+  
+   }
+
+   .responsive-table tbody>tr>td:nth-child(2):before{
+
+      content:"Team:  ";
+      font-weight: 900
+   }
+
+   .responsive-table tbody>tr>td:nth-child(3):before{
+
+    content:"Games:  ";
+    font-weight: 900
+ }
+
+ .responsive-table tbody>tr>td:nth-child(4):before{
+
+    content:"Three-Point Percentage:  ";
+    font-weight: 900
+ }
+
+ .responsive-table tbody>tr>td:last-child:before{
+
+    content:"Points:  ";
+    font-weight: 900
+ }
+   
+  
+
+}
+
+@media screen and (max-width: 700px){
+
+    .responsive-table tbody>tr{
+
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+
+   .responsive-table tbody>tr>td:nth-child(3){
+
+       position: relative;
+       margin-top: -1px
+  
+   }
+  
+
+   
+
+ 
+
+    
+
+}  
+
+
+
+
+
+
+
+
+
+
+
+

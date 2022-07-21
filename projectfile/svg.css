@@ -1,0 +1,541 @@
+#background{
+
+    width: 90%;
+    height: 800px;
+    background: black;
+    margin: 0 auto
+}
+
+
+#mountain-background{
+
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    height: 50%;
+    background: green
+}
+
+
+#view{
+
+    width:0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 75px solid gray;
+    margin-left: 60%;
+    margin-top: 5%
+
+}
+
+#view1{
+
+    width:0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 80px solid gray;
+    margin-left: 20%;
+    margin-top: 3%
+}
+
+#view2{
+
+    width:0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 50px solid gray;  
+    margin-left: 65%;
+    margin-top: 7%
+
+}
+
+#view3{
+
+    width:0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 50px solid gray;  
+    margin-left: 10%;
+    margin-top: 9%
+
+}
+
+#view4{
+
+    width:0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 50px solid gray;  
+    margin-top: -5%;
+    margin-left: 50%
+
+}
+
+#view5{
+
+    width:0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 60px solid gray;  
+    margin-top: -30%;
+    margin-left: 30%
+
+}
+
+#view6{
+
+    width:0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 75px solid gray;
+    margin-left: 10%;
+    margin-top: 5%
+
+}
+
+#view7{
+
+    width:0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 80px solid gray;
+    margin-left: 80%;
+    margin-top: 3%
+}
+
+#view8{
+
+    width:0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 50px solid gray;  
+    margin-left:40%;
+    margin-top: 3%
+
+}
+
+#view9{
+
+    width:0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 50px solid gray;  
+    margin-left: 80%;
+    margin-top: 12%
+
+}
+
+#view10{
+
+    width:0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 50px solid gray;  
+    margin-top: -5%;
+    margin-left: 30%
+
+}
+
+#view11{
+
+    width:0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 60px solid gray;  
+    margin-top: -25%;
+    margin-left: 55%
+
+}
+
+#view12{
+
+    width:0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 60px solid gray;  
+    margin-top: -50%;
+    margin-left: 20%
+
+}
+
+#view13{
+
+    width:0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 75px solid gray;
+    margin-left: 10%;
+    margin-top: 5%
+
+}
+
+#view14{
+
+    width:0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 80px solid gray;
+    margin-left: 75%;
+    margin-top: -7%
+}
+
+#view15{
+
+    width:0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 50px solid gray;  
+    margin-left:50%;
+    margin-top: 3%
+
+}
+
+#view16{
+
+    width:0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 50px solid gray;  
+    margin-left: 80%;
+    margin-top: 20%
+
+}
+
+#view17{
+
+    width:0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 50px solid gray;  
+    margin-top: -5%;
+    margin-left: 30%
+
+}
+
+#view18{
+
+    width:0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 60px solid gray;  
+    margin-top: -13%;
+    margin-left: 48%
+
+}
+
+#view19{
+
+    width:0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 60px solid gray;  
+    margin-top: -50%;
+    margin-left: 20%
+
+}
+
+#road{
+
+   position: relative;
+   box-sizing: border-box;
+   width: 100%;
+   height: 30%;
+   background: gray;
+   border-top: 4px solid white
+}
+
+#road-top{
+    
+    position: relative;
+    width: 100%;
+    height: 49%;
+    border-top: 4px solid white;
+    border-bottom: 4px dashed white
+    
+}
+
+#road-bottom{
+    
+    position: relative;
+    width: 100%;
+    height: 47%;
+    border-bottom: 4px solid white;  
+
+}
+
+#car1{
+
+    position: relative;
+    background: url(car.svg);
+    width: 50px;
+    height: 50px;
+    margin-left: 1%;
+    top: 20%;
+    animation-name: forward;
+    animation-duration: 13s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes forward{
+
+    from{ margin-left: 1%;}
+    to{ margin-left: 98%}
+}
+
+
+
+#car2{
+
+    position: relative;
+    background: url(car2.svg);
+    transform: rotateY(180deg);
+    width: 50px;
+    height: 50px;
+    margin-left: 96%;
+    top: 20%;
+    animation-name: backward;
+    animation-duration: 13s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes backward {
+
+    from{ margin-left: 98%;}
+    to{ margin-left: 1%}
+}
+
+#mountain-background2{
+
+    width: 100%;
+    height: 20%;
+    background: green;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+}
+
+#more-mountains{
+
+   position: relative;
+    width:0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 45px solid gray;  
+    margin-top: 1%;
+    left: 5%
+
+}
+
+#more-mountains1{
+
+    position: relative;
+     width:0;
+     height: 0;
+     border-left: 15px solid transparent;
+     border-right: 15px solid transparent;
+     border-bottom: 30px solid gray;  
+     top: -5%;
+     left: 25%
+ 
+ }
+
+ #more-mountains2{
+
+    position: relative;
+     width:0;
+     height: 0;
+     border-left: 20px solid transparent;
+     border-right: 20px solid transparent;
+     border-bottom: 30px solid gray;  
+     top: -15%;
+     left: 60%
+ 
+ }
+
+ #more-mountains3{
+
+    position: relative;
+     width:0;
+     height: 0;
+     border-left: 10px solid transparent;
+     border-right: 10px solid transparent;
+     border-bottom: 25px solid gray;  
+     top: -10%;
+     left: 80%
+ 
+ }
+
+ #more-mountains4{
+
+    position: relative;
+     width:0;
+     height: 0;
+     border-left: 10px solid transparent;
+     border-right: 10px solid transparent;
+     border-bottom: 25px solid gray;  
+     top: -30%;
+     left: 15%
+ 
+ }
+
+ #more-mountains5{
+
+    position: relative;
+     width:0;
+     height: 0;
+     border-left: 20px solid transparent;
+     border-right: 20px solid transparent;
+     border-bottom: 45px solid gray;  
+     margin-top: 10%;
+     left: 25%
+ 
+ }
+ 
+ #more-mountains6{
+ 
+     position: relative;
+      width:0;
+      height: 0;
+      border-left: 15px solid transparent;
+      border-right: 15px solid transparent;
+      border-bottom: 30px solid gray;  
+      top: -20%;
+      left: 45%
+  
+  }
+ 
+  #more-mountains7{
+ 
+     position: relative;
+      width:0;
+      height: 0;
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      border-bottom: 30px solid gray;  
+      top: -15%;
+      left: 70%
+  
+  }
+ 
+  #more-mountains8{
+ 
+     position: relative;
+      width:0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 25px solid gray;  
+      top: -20%;
+      left: 90%
+  
+  }
+ 
+  #more-mountains9{
+ 
+     position: relative;
+      width:0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 25px solid gray;  
+      top: -50%;
+      left: 65%
+  
+  }
+
+  #more-mountains10{
+
+    position: relative;
+     width:0;
+     height: 0;
+     border-left: 20px solid transparent;
+     border-right: 20px solid transparent;
+     border-bottom: 45px solid gray;  
+     margin-top: 5%;
+     left: 15%
+ 
+ }
+ 
+ #more-mountains11{
+ 
+     position: relative;
+      width:0;
+      height: 0;
+      border-left: 15px solid transparent;
+      border-right: 15px solid transparent;
+      border-bottom: 30px solid gray;  
+      top: -30%;
+      left: 45%
+  
+  }
+ 
+  #more-mountains12{
+ 
+     position: relative;
+      width:0;
+      height: 0;
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      border-bottom: 30px solid gray;  
+      top: -22%;
+      left: 70%
+  
+  }
+ 
+  #more-mountains13{
+ 
+     position: relative;
+      width:0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 25px solid gray;  
+      top: -20%;
+      left: 80%
+  
+  }
+ 
+  #more-mountains14{
+ 
+     position: relative;
+      width:0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 25px solid gray;  
+      top: -50%;
+      left: 65%
+  
+  }
+
+
+
+
+
+
+

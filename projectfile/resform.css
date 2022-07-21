@@ -1,0 +1,927 @@
+body{
+
+    background: linear-gradient(gold, black)
+}
+
+
+form{
+
+    background: gold;
+    color: black;
+    border: 1px solid black;
+    width: 1000px;
+    height: 1150px;
+    margin-left: 20%;
+  
+       
+}
+
+.form-grid{
+
+   display: inline-grid;
+   width: 1000px;
+   height: 800px;
+   grid-template-columns: repeat(2, 1fr)
+
+}
+
+.form-grid p{
+
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-left: 2%;
+    padding-top: 3%;
+    background:black;
+    color: white;
+    font-size: 200%;
+    grid-column: span 2;
+
+}
+
+
+.form-grid p:nth-child(2), .form-grid:last-child{
+
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+
+
+.form-grid label{
+    
+    width: 90%;
+    height: 50%;
+    margin-top: 0px;
+    margin-left: 5px;  
+
+}
+
+.form-grid input{
+
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  margin-top: 20px;
+  margin-left: 5px;
+  width: 90%;
+  height: 25%
+  
+ }
+
+ .form-grid label:first-of-type{
+
+    grid-column: 1/2;
+    grid-row: 2/2
+
+}
+
+.form-grid input:first-of-type{
+  
+    grid-column: 1/2;
+    grid-row: 2/2
+
+}
+ 
+
+.form-grid label:nth-of-type(2){
+
+    grid-column: 2/2;
+    grid-row: 2/2
+}
+
+.form-grid input:nth-of-type(2){
+  
+    grid-column: 2/2;
+    grid-row: 2/2
+
+}
+
+.form-grid textarea{
+
+    background: white;
+    grid-column: span 2;
+    height: 100px;
+    width: 900px;
+    border: 1px solid black;
+    padding-top: 0px;
+    margin-left: 10px
+   
+ }
+
+ .form-grid label:nth-of-type(4){
+
+    grid-column: 1/2;
+    grid-row: 6/6;
+    
+}
+
+.form-grid input:nth-of-type(3){
+  
+    grid-column: 1/2;
+    grid-row: 6/6;
+
+}
+
+.form-grid label:nth-of-type(5){
+
+    grid-column: 2/2;
+    grid-row: 6/6;
+    
+}
+
+.form-grid input:nth-of-type(4){
+  
+    grid-column: 2/2;
+    grid-row: 6/6;
+
+}
+
+.form-grid label:nth-of-type(6){
+
+    grid-column: 1/2;
+    grid-row: 7/7;
+    
+}
+
+.form-grid input:nth-of-type(5){
+  
+    grid-column: 1/2;
+    grid-row: 7/7;
+
+}
+
+.form-grid label:nth-of-type(7){
+
+    grid-column: 2/2;
+    grid-row: 7/7;
+    
+}
+
+.form-grid input:nth-of-type(6){
+  
+    grid-column: 2/2;
+    grid-row: 7/7;
+
+}
+
+.form-grid label:nth-of-type(8){
+
+    grid-column: 1/2;
+    grid-row: 8/8;
+    
+}
+
+.form-grid input:nth-of-type(7){
+  
+    grid-column: 1/2;
+    grid-row: 8/8;
+
+}
+
+.form {
+
+   width: 600px;
+   height: 200px;
+   margin-top: 20px;
+   
+}
+
+.form label, .form input, .form button{
+
+    display: block;
+    box-sizing: border-box;
+    width: 90%;
+   
+   
+}
+
+.form label{
+
+    font-weight: bold;
+    text-align: center;
+    margin-left: 200px;
+    margin-bottom: 3px;
+       
+}
+
+.form input{
+
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+
+}
+
+.form button{
+
+    height: 100px;
+    margin-left: 200px;
+    border-radius: 40px;
+    border: none
+
+}
+
+
+@media screen and (max-width: 600px){
+
+    body{
+
+        background: linear-gradient(gold, black)
+    }
+    
+    
+    form{
+    
+        background: gold;
+        color: black;
+        border: 1px solid black;
+        width: 600px;
+        height: 1150px;
+        margin-left: 20%;
+      
+           
+    }
+    
+    .form-grid{
+    
+       display: inline-grid;
+       width: 600px;
+       height: 800px;
+       grid-template-columns: repeat(2, 1fr)
+    
+    }
+    
+    .form-grid p{
+    
+        position: relative;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        padding-left: 2%;
+        padding-top: 3%;
+        background:black;
+        color: white;
+        font-size: 200%;
+        grid-column: span 2;
+    
+    }
+    
+    
+    .form-grid p:nth-child(2), .form-grid:last-child{
+    
+        margin-top: 10px;
+        margin-bottom: 10px
+    }
+    
+    
+    
+    .form-grid label{
+        
+        width: 90%;
+        height: 50%;
+        margin-top: 0px;
+        margin-left: 5px;  
+    
+    }
+    
+    .form-grid input{
+    
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid black;
+      margin-top: 20px;
+      margin-left: 5px;
+      width: 90%;
+      height: 25%
+      
+     }
+    
+     .form-grid label:first-of-type{
+    
+        grid-column: 1/2;
+        grid-row: 2/2
+    
+    }
+    
+    .form-grid input:first-of-type{
+      
+        grid-column: 1/2;
+        grid-row: 2/2
+    
+    }
+     
+    
+    .form-grid label:nth-of-type(2){
+    
+        grid-column: 2/2;
+        grid-row: 2/2
+    }
+    
+    .form-grid input:nth-of-type(2){
+      
+        grid-column: 2/2;
+        grid-row: 2/2
+    
+    }
+    
+    .form-grid textarea{
+    
+        background: white;
+        grid-column: span 2;
+        height: 100px;
+        width: 600px;
+        border: 1px solid black;
+        padding-top: 0px;
+        margin-left: 10px
+       
+     }
+    
+     .form-grid label:nth-of-type(4){
+    
+        grid-column: 1/2;
+        grid-row: 6/6;
+        
+    }
+    
+    .form-grid input:nth-of-type(3){
+      
+        grid-column: 1/2;
+        grid-row: 6/6;
+    
+    }
+    
+    .form-grid label:nth-of-type(5){
+    
+        grid-column: 2/2;
+        grid-row: 6/6;
+        
+    }
+    
+    .form-grid input:nth-of-type(4){
+      
+        grid-column: 2/2;
+        grid-row: 6/6;
+    
+    }
+    
+    .form-grid label:nth-of-type(6){
+    
+        grid-column: 1/2;
+        grid-row: 7/7;
+        
+    }
+    
+    .form-grid input:nth-of-type(5){
+      
+        grid-column: 1/2;
+        grid-row: 7/7;
+    
+    }
+    
+    .form-grid label:nth-of-type(7){
+    
+        grid-column: 2/2;
+        grid-row: 7/7;
+        
+    }
+    
+    .form-grid input:nth-of-type(6){
+      
+        grid-column: 2/2;
+        grid-row: 7/7;
+    
+    }
+    
+    .form-grid label:nth-of-type(8){
+    
+        grid-column: 1/2;
+        grid-row: 8/8;
+        
+    }
+    
+    .form-grid input:nth-of-type(7){
+      
+        grid-column: 1/2;
+        grid-row: 8/8;
+    
+    }
+    
+    .form {
+    
+       width: 600px;
+       height: 200px;
+       margin-top: 20px;
+       
+    }
+    
+    .form label, .form input, .form button{
+    
+        display: block;
+        box-sizing: border-box;
+        width: 90%;
+       
+       
+    }
+    
+    .form label{
+    
+        font-weight: bold;
+        text-align: center;
+        margin-left: 50px;
+        margin-bottom: 3px;
+           
+    }
+    
+    .form input{
+    
+        font-weight: bold;
+        text-align: center;
+        font-size: 12px;
+        margin-left: 50px;
+        margin-bottom: 30px;
+    
+    }
+    
+    .form button{
+    
+        height: 100px;
+        margin-left: 50px;
+        border-radius: 20px;
+        border: none
+    
+    }
+
+
+
+}
+
+@media screen and (max-width: 1500px){
+
+    body{
+
+        background: brown
+    }
+    
+    
+    form{
+    
+        background: green;
+        color: black;
+        border: 1px solid black;
+        width: 600px;
+        height: 1150px;
+        margin-left: 20%;
+      
+           
+    }
+    
+    .form-grid{
+    
+       display: inline-grid;
+       width: 600px;
+       height: 800px;
+       grid-template-columns: repeat(2, 1fr);
+       overflow: hidden
+    
+    }
+    
+    .form-grid p{
+    
+        position: relative;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        padding-left: 2%;
+        padding-top: 3%;
+        background:black;
+        color: white;
+        font-size: 200%;
+        grid-column: span 2;
+    
+    }
+    
+    
+    .form-grid p:nth-child(2), .form-grid:last-child{
+    
+        margin-top: 10px;
+        margin-bottom: 10px
+    }
+    
+    
+    
+    .form-grid label{
+        
+        width: 90%;
+        height: 50%;
+        margin-top: 0px;
+        margin-left: 5px;  
+    
+    }
+    
+    .form-grid input{
+    
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid black;
+      margin-top: 20px;
+      margin-left: 5px;
+      width: 90%;
+      height: 25%
+      
+     }
+    
+     .form-grid label:first-of-type{
+    
+        grid-column: 1/2;
+        grid-row: 2/2
+    
+    }
+    
+    .form-grid input:first-of-type{
+      
+        grid-column: 1/2;
+        grid-row: 2/2
+    
+    }
+     
+    
+    .form-grid label:nth-of-type(2){
+    
+        grid-column: 2/2;
+        grid-row: 2/2
+    }
+    
+    .form-grid input:nth-of-type(2){
+      
+        grid-column: 2/2;
+        grid-row: 2/2
+    
+    }
+    
+    .form-grid textarea{
+    
+        background: white;
+        grid-column: span 2;
+        height: 100px;
+        width: 500px;
+        border: 1px solid black;
+        padding-top: 0px;
+        margin-left: 10px
+       
+     }
+    
+     .form-grid label:nth-of-type(4){
+    
+        grid-column: 1/2;
+        grid-row: 6/6;
+        
+    }
+    
+    .form-grid input:nth-of-type(3){
+      
+        grid-column: 1/2;
+        grid-row: 6/6;
+    
+    }
+    
+    .form-grid label:nth-of-type(5){
+    
+        grid-column: 2/2;
+        grid-row: 6/6;
+        
+    }
+    
+    .form-grid input:nth-of-type(4){
+      
+        grid-column: 2/2;
+        grid-row: 6/6;
+    
+    }
+    
+    .form-grid label:nth-of-type(6){
+    
+        grid-column: 1/2;
+        grid-row: 7/7;
+        
+    }
+    
+    .form-grid input:nth-of-type(5){
+      
+        grid-column: 1/2;
+        grid-row: 7/7;
+    
+    }
+    
+    .form-grid label:nth-of-type(7){
+    
+        grid-column: 2/2;
+        grid-row: 7/7;
+        
+    }
+    
+    .form-grid input:nth-of-type(6){
+      
+        grid-column: 2/2;
+        grid-row: 7/7;
+    
+    }
+    
+    .form-grid label:nth-of-type(8){
+    
+        grid-column: 1/2;
+        grid-row: 8/8;
+        
+    }
+    
+    .form-grid input:nth-of-type(7){
+      
+        grid-column: 1/2;
+        grid-row: 8/8;
+    
+    }
+    
+    .form {
+    
+       width: 600px;
+       height: 200px;
+       margin-top: 20px;
+       
+    }
+    
+    .form label, .form input, .form button{
+    
+        display: block;
+        box-sizing: border-box;
+        width: 90%;
+       
+       
+    }
+    
+    .form label{
+    
+        font-weight: bold;
+        text-align: center;
+        margin-left: 50px;
+        margin-bottom: 3px;
+           
+    }
+    
+    .form input{
+    
+        font-weight: bold;
+        text-align: center;
+        font-size: 12px;
+        margin-left: 50px;
+        margin-bottom: 30px;
+    
+    }
+    
+    .form button{
+    
+        height: 100px;
+        margin-left: 50px;
+        border-radius: 20px;
+        border: none
+    
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 800px){
+
+    body{
+
+        background: blue
+    }
+    
+    
+    form{
+    
+        background: red;
+        color: black;
+        border: 1px solid black;
+        width: 300px;
+        height: 1150px;
+        margin-left: 20%;
+      
+           
+    }
+    
+    .form-grid{
+    
+       display: inline-grid;
+       width: 300px;
+       height: 800px;
+       grid-template-columns: repeat(2, 1fr);
+       overflow: hidden
+    
+    }
+    
+    .form-grid p{
+    
+        position: relative;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        padding-left: 2%;
+        padding-top: 3%;
+        background:black;
+        color: white;
+        font-size: 200%;
+        grid-column: span 2;
+    
+    }
+    
+    
+    .form-grid p:nth-child(2), .form-grid:last-child{
+    
+        margin-top: 10px;
+        margin-bottom: 10px
+    }
+    
+    
+    
+    .form-grid label{
+        
+        width: 90%;
+        height: 50%;
+        margin-top: 0px;
+        margin-left: 5px;  
+    
+    }
+    
+    .form-grid input{
+    
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid black;
+      margin-top: 20px;
+      margin-left: 5px;
+      width: 90%;
+      height: 25%
+      
+     }
+    
+     .form-grid label:first-of-type{
+    
+        grid-column: 1/2;
+        grid-row: 2/2
+    
+    }
+    
+    .form-grid input:first-of-type{
+      
+        grid-column: 1/2;
+        grid-row: 2/2
+    
+    }
+     
+    
+    .form-grid label:nth-of-type(2){
+    
+        grid-column: 2/2;
+        grid-row: 2/2
+    }
+    
+    .form-grid input:nth-of-type(2){
+      
+        grid-column: 2/2;
+        grid-row: 2/2
+    
+    }
+    
+    .form-grid textarea{
+    
+        background: white;
+        grid-column: span 2;
+        height: 100px;
+        width: 200px;
+        border: 1px solid black;
+        padding-top: 0px;
+        margin-left: 10px
+       
+     }
+    
+     .form-grid label:nth-of-type(4){
+    
+        grid-column: 1/2;
+        grid-row: 6/6;
+        
+    }
+    
+    .form-grid input:nth-of-type(3){
+      
+        grid-column: 1/2;
+        grid-row: 6/6;
+    
+    }
+    
+    .form-grid label:nth-of-type(5){
+    
+        grid-column: 2/2;
+        grid-row: 6/6;
+        
+    }
+    
+    .form-grid input:nth-of-type(4){
+      
+        grid-column: 2/2;
+        grid-row: 6/6;
+    
+    }
+    
+    .form-grid label:nth-of-type(6){
+    
+        grid-column: 1/2;
+        grid-row: 7/7;
+        
+    }
+    
+    .form-grid input:nth-of-type(5){
+      
+        grid-column: 1/2;
+        grid-row: 7/7;
+    
+    }
+    
+    .form-grid label:nth-of-type(7){
+    
+        grid-column: 2/2;
+        grid-row: 7/7;
+        
+    }
+    
+    .form-grid input:nth-of-type(6){
+      
+        grid-column: 2/2;
+        grid-row: 7/7;
+    
+    }
+    
+    .form-grid label:nth-of-type(8){
+    
+        grid-column: 1/2;
+        grid-row: 8/8;
+        
+    }
+    
+    .form-grid input:nth-of-type(7){
+      
+        grid-column: 1/2;
+        grid-row: 8/8;
+    
+    }
+    
+    .form {
+    
+       width: 600px;
+       height: 200px;
+       margin-top: 20px;
+       
+    }
+    
+    .form label, .form input, .form button{
+    
+        display: block;
+        box-sizing: border-box;
+        width: 200px;
+       
+       
+    }
+    
+    .form label{
+    
+        font-weight: bold;
+        text-align: center;
+        margin-left: 50px;
+        margin-bottom: 3px;
+           
+    }
+    
+    .form input{
+    
+        font-weight: bold;
+        text-align: center;
+        font-size: 12px;
+        margin-left: 50px;
+        margin-bottom: 30px;
+    
+    }
+    
+    .form button{
+    
+        height: 100px;
+        margin-left: 50px;
+        border-radius: 20px;
+        border: none
+    
+    }
+
+
+
+}
+
+

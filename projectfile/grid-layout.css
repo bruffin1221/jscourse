@@ -1,0 +1,319 @@
+body{
+
+    background: rgb(72, 0, 0)
+}
+
+#epic{
+
+    display: block;
+    color: white;
+    text-align: center
+
+}
+
+#epic p:first-child{
+
+    font-size: 300%;
+    font-weight: 900
+
+}
+
+#epic p:last-child{
+
+    font-size: 150%;
+    font-weight: 900;
+    margin-top: -40px
+
+}
+
+#lifestyle{
+
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 3%;
+    width: 95%;
+    height: 950px;
+    margin-left: 2.5%;
+    
+}
+
+#passionate-work{
+
+    background: url(purpose.jpg);
+    background-size: 100% 100%;
+    display: grid;
+    grid-template-rows: 5% 32% 32% 32%;
+
+}
+
+#work p{
+
+    display: block;
+    box-sizing: border-box;
+    width: 35%;
+    opacity: .5;
+    background: black;
+    color: white;
+    margin-left: 30%;
+    font-size: 125%
+
+}
+
+#purpose p:first-child{
+
+    display: block;
+    box-sizing: border-box;
+    width: 13%;
+    background: black;
+    color: white;
+    margin-left: 40%;
+    opacity: .5;
+
+}
+
+#purpose p:last-child{
+
+    box-sizing: border-box;
+    width: 90%;
+    background: black;
+    color: white;
+    margin-left: 5%;
+    opacity: .5;
+
+}
+
+#service p:first-child{
+
+    display: block;
+    box-sizing: border-box;
+    width: 12%;
+    background: black;
+    color: white;
+    margin-left: 43%;
+    opacity: .5;
+
+}
+
+#service p:last-child{
+
+    display: block;
+    box-sizing: border-box;
+    width: 90%;
+    background: black;
+    color: white;
+    margin-left: 5%;
+    opacity: .5;
+
+}
+
+#hustle p:first-child{
+
+    display: block;
+    box-sizing: border-box;
+    width: 10%;
+    background: black;
+    color: white;
+    margin-left: 43%;
+    opacity: .5;
+
+}
+
+#hustle p:last-child{
+
+    display: block;
+    box-sizing: border-box;
+    width: 90%;
+    background: black;
+    color: white;
+    margin-left: 5%;
+    opacity: .5;
+
+}
+
+#active-living{
+
+    background: url(workout23.jpg);
+    background-size: 100% 100%;
+    display: grid;
+    grid-template-rows: 5% 32% 32% 32%
+
+}
+
+#active p{
+
+    display: block;
+    box-sizing: border-box;
+    width: 27%;
+    opacity: .5;
+    background: black;
+    color: white;
+    margin-left: 37%;
+    font-size: 125%
+
+}
+
+#healthy p:first-child{
+
+    display: block;
+    box-sizing: border-box;
+    width: 27%;
+    background: black;
+    color: white;
+    margin-left: 37%;
+    opacity: .5;
+
+}
+
+#healthy p:last-child{
+
+    display: block;
+    box-sizing: border-box;
+    width: 90%;
+    background: black;
+    color: white;
+    margin-left: 5%;
+    opacity: .8;
+
+}
+
+#nutrition p:first-child{
+
+    display: block;
+    box-sizing: border-box;
+    width: 15%;
+    background: black;
+    color: white;
+    margin-left: 42%;
+    opacity: .8;
+
+}
+
+#nutrition p:last-child{
+
+    display: block;
+    box-sizing: border-box;
+    width: 90%;
+    background: black;
+    color: white;
+    margin-left: 5%;
+    opacity: .8;
+
+}
+
+#movement p:first-child{
+
+    display: block;
+    box-sizing: border-box;
+    width: 37%;
+    background: black;
+    color: white;
+    margin-left: 33%;
+    opacity: .5;
+
+}
+
+#movement p:last-child{
+
+    display: block;
+    box-sizing: border-box;
+    width: 90%;
+    background: black;
+    color: white;
+    margin-left: 5%;
+    opacity: .5;
+
+}
+
+#travel{
+
+    background: url(jared-rice-qErAC7r1Q8E-unsplash.jpg);
+    background-size: 100% 100%;
+    display: grid;
+    grid-template-rows: 5% 32% 32% 32%;
+
+}
+
+#traveling p{
+
+    display: block;
+    box-sizing: border-box;
+    width: 13%;
+    opacity: .8;
+    background: black;
+    color: white;
+    margin-left: 40%;
+    font-size: 125%
+
+}
+
+#local p:first-child{
+
+    display: block;
+    box-sizing: border-box;
+    width: 9%;
+    background: black;
+    color: white;
+    margin-left: 42%;
+    opacity: .5;
+
+}
+
+#local p:last-child{
+
+    display: block;
+    box-sizing: border-box;
+    width: 90%;
+    background: black;
+    color: white;
+    margin-left: 5%;
+    opacity: .5;
+
+}
+
+#national p:first-child{
+
+    display: block;
+    box-sizing: border-box;
+    width: 13%;
+    background: black;
+    color: white;
+    margin-left: 42%;
+    opacity: .5;
+
+}
+
+#national p:last-child{
+
+    display: block;
+    box-sizing: border-box;
+    width: 90%;
+    background: black;
+    color: white;
+    margin-left: 5%;
+    opacity: .8;
+
+}
+
+#international p:first-child{
+
+    display: block;
+    box-sizing: border-box;
+    width: 20%;
+    background: black;
+    color: white;
+    margin-left: 42%;
+    opacity: .5;
+
+}
+
+#international p:last-child{
+
+    display: block;
+    box-sizing: border-box;
+    width: 90%;
+    background: black;
+    color: white;
+    margin-left: 5%;
+    opacity: .8;
+
+}
